@@ -56,6 +56,9 @@ RUN pip --no-cache-dir install \
         mlflow \
         featuretools \
         optuna \
+        allennlp \
+        janome \
+        allennlp-models \
         && \
     python -m ipykernel.kernelspec
 
