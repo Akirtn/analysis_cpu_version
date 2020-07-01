@@ -50,15 +50,16 @@ RUN pip --no-cache-dir install \
         japanize-matplotlib \
         nltk \
         gensim \
-        opencv-python \
+        opencv-python 
         wordcloud \
         beautifulsoup4 \
         mlflow \
         featuretools \
         optuna \
         allennlp \
-        janome \
+        'konoha[janome,allennlp]' \
         allennlp-models \
+
         && \
     python -m ipykernel.kernelspec
 
