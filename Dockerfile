@@ -59,7 +59,8 @@ RUN pip --no-cache-dir install \
         allennlp \
         'konoha[janome,allennlp]' \
         allennlp-models \
-
+        Prophet \
+        statsmodels \
         && \
     python -m ipykernel.kernelspec
 
