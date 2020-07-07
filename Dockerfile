@@ -50,7 +50,7 @@ RUN pip --no-cache-dir install \
         japanize-matplotlib \
         nltk \
         gensim \
-        opencv-python 
+        opencv-python \
         wordcloud \
         beautifulsoup4 \
         mlflow \
